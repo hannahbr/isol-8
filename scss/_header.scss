@@ -1,0 +1,31 @@
+@media screen and (max-device-width: 800px) {
+  header {
+       background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') #fff no-repeat center center fixed;
+  }
+  #bgvid {
+      display: none;
+  }
+}
+
+header {
+  height: 100vh;
+  
+  video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+  .stopfade { 
+   opacity: 0;
+  }
+
+}
