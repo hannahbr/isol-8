@@ -1,0 +1,22 @@
+
+$font-stack: 'Assistant', sans-serif;
+$font-header: 'Righteous', cursive;
+
+html {
+  font: 1em $font-stack;
+  line-height: 1.6em;
+  color: $textbase;
+  max-width: 75ch;
+}
+
+.righteous {
+  font-family: $font-header;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+p {
+    
+}
