@@ -10,33 +10,64 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Assistant|Righteous" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    
   </head>
   <body>
     <!--[if lte IE 9]>
        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-
-    <header>
-      <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted>
-        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-        <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
-        <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
-      </video>
-      <h1 class="righteous">isol-8<sup class="reg">&reg;</sup></h1>
-      <p>The new i-SOL8 and i-SOL8-S  Curtain Wall brackets are designed to provide an economical solution for attaching external furniture (solar shading) to curtain walling with industry leading high thermal efficiency.</p>
-    </header>
-
-    <div class="content">
-
-
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m8 l6">
+          <header>
+            <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted>
+              <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+              <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
+              <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+            </video>
+            <h1 class="righteous">isol-8<sup class="reg">&reg;</sup></h1>
+            <p>The new i-SOL8 and i-SOL8-S  Curtain Wall brackets are designed to provide an economical solution for attaching external furniture (solar shading) to curtain walling with industry leading high thermal efficiency.</p>
+          </header>
+        </div>
+      </div>
     </div>
 
-    <div class="footer">
-      1
-    </div>
+    <main>
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Datasheets</h5>
+              <i class="large material-icons">insert_chart</i>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Contact</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Phone</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">www.blueskyconcept.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2017 isol-8, All rights reserved.
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
 
     <script src="js/main.js"></script>
 
