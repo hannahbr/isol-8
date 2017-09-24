@@ -72,3 +72,28 @@ p {
   font: 0.5em 'Assistant', sans-serif;
   font-weight: bold;
 }
+
+.no-bullets {
+  ul {
+    &:not(.browser-default) {
+      padding-left: 0;
+      list-style-type: none;
+  
+      & > li {
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+.email-icon, .phone-icon {
+  position: relative;
+  right:21px;
+  i.tiny{
+    font-size: 0.9rem;
+    position: relative;
+    right: 3px;
+    top: 2px;
+    color: $input-disabled-solid-color;
+  }
+}

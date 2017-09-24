@@ -3238,12 +3238,6 @@ nav {
 
   .navbar-fixed {
     height: 64px; } }
-ul:not(.browser-default) {
-  padding-left: 0;
-  list-style-type: none; }
-  ul:not(.browser-default) > li {
-    list-style-type: none; }
-
 #navBar {
   opacity: 0;
   transition: opacity 0.6s; }
@@ -3396,6 +3390,22 @@ p {
 .reg {
   font: 0.5em 'Assistant', sans-serif;
   font-weight: bold; }
+
+.no-bullets ul:not(.browser-default) {
+  padding-left: 0;
+  list-style-type: none; }
+  .no-bullets ul:not(.browser-default) > li {
+    list-style-type: none; }
+
+.email-icon, .phone-icon {
+  position: relative;
+  right: 21px; }
+  .email-icon i.tiny, .phone-icon i.tiny {
+    font-size: 0.9rem;
+    position: relative;
+    right: 3px;
+    top: 2px;
+    color: #949494; }
 
 .scale-transition {
   transition: transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important; }
