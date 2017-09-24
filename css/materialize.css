@@ -2484,6 +2484,9 @@ input[type=range] + .thumb {
 .no-padding {
   padding: 0 !important; }
 
+.parallax-container--small {
+  height: 250px; }
+
 span.badge {
   min-width: 3rem;
   padding: 0 6px;
