@@ -19,3 +19,15 @@ vidFade();
 
 
 
+$(document).ready(function () {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() < 100) {
+        $('#navBar').css("opacity", 0);
+    }
+    else {
+        $('#navBar').css("opacity", 1);
+    }
+  });
+
+ 
+});
