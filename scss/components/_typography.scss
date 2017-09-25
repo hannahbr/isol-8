@@ -104,9 +104,10 @@ ul.list-number {
 
 ul.list-number li > ul > li {
   list-style-type: lower-alpha;
-  margin-top: 0.5rem;
+  margin-top: 0;
   margin-left: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
+  font-size: 0.9rem;
 }
 
 ul.list-number li > ul > li > ul > li {
@@ -114,4 +115,5 @@ ul.list-number li > ul > li > ul > li {
   margin-top: 0.5rem;
   margin-left: 1.5rem;
   margin-bottom: 0.4rem;
+  font-size: 0.7rem;
 }
