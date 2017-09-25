@@ -97,3 +97,21 @@ p {
     color: $input-disabled-solid-color;
   }
 }
+
+ul.list-number {
+  list-style-type: decimal;
+}
+
+ul.list-number li > ul > li {
+  list-style-type: lower-alpha;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+ul.list-number li > ul > li > ul > li {
+  list-style-type: lower-roman;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.4rem;
+}
