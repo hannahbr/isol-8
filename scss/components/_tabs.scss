@@ -31,9 +31,9 @@
   overflow-y: hidden;
   height: 48px;
   width: 100%;
-  background-color: $tabs-bg-color;
-  margin: 0 auto;
+  background-color: #222222;
   white-space: nowrap;
+  border-radius: 10px;
 
   .tab {
     display: inline-block;
@@ -42,13 +42,16 @@
     height: 48px;
     padding: 0;
     margin: 0;
-    text-transform: uppercase;
 
     a {
       &:hover,
-      &.active {
-        background-color: transparent;
+       {
+        background-color: #111111;
         color: $tabs-text-color;
+      }
+
+      &.active {
+        background-color: #1a1a1a;
       }
 
       color: rgba($tabs-text-color, .7);

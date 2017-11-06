@@ -1,6 +1,6 @@
 @media screen and (max-device-width: 800px) {
   header {
-       background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') #fff no-repeat center center fixed;
+       background-image: url('images/isol-8-main.png') #d1ecf8 no-repeat center center fixed;
   }
   #bgvid {
       display: none;
@@ -8,7 +8,7 @@
 }
 
 header {
-  height: 100vh;
+  height: 80vh;
   
   video { 
     position: absolute;
@@ -20,7 +20,7 @@ header {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat;
+    background: url('images/isol-8-main.png') no-repeat;
     background-size: cover;
     transition: 1s opacity;
   }

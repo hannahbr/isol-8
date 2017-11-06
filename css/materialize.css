@@ -2034,7 +2034,7 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #1a99d6; }
+  border-left: 5px solid #03a9f4; }
 
 i {
   line-height: inherit; }
@@ -2073,7 +2073,7 @@ video.responsive-video {
   .pagination li.active a {
     color: #fff; }
   .pagination li.active {
-    background-color: #1a99d6; }
+    background-color: #03a9f4; }
   .pagination li.disabled a {
     cursor: default;
     color: #999; }
@@ -3103,7 +3103,7 @@ nav ul a span.badge {
 
 nav {
   color: #2d2d2d;
-  background-color: #1a99d6;
+  background-color: #03a9f4;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -3434,10 +3434,10 @@ ul.list-number li > ul > li > ul > li {
 
 .card-panel {
   transition: box-shadow .25s;
-  padding: 24px;
+  padding: 24px 40px;
   margin: 0.5rem 0 1rem 0;
-  border-radius: 2px;
-  background-color: #fff; }
+  background-color: #fff;
+  border-radius: 50px; }
 
 .card {
   position: relative;
@@ -3466,7 +3466,7 @@ ul.list-number li > ul > li > ul > li {
       left: 0;
       right: 0; }
   .card.small {
-    height: 300px; }
+    height: 150px; }
   .card.medium {
     height: 400px; }
   .card.large {
@@ -3613,9 +3613,9 @@ ul.list-number li > ul > li > ul > li {
   overflow-y: hidden;
   height: 48px;
   width: 100%;
-  background-color: #fff;
-  margin: 0 auto;
-  white-space: nowrap; }
+  background-color: #222222;
+  white-space: nowrap;
+  border-radius: 10px; }
   .tabs.tabs-transparent {
     background-color: transparent; }
     .tabs.tabs-transparent .tab a,
@@ -3637,10 +3637,9 @@ ul.list-number li > ul > li > ul > li {
     line-height: 48px;
     height: 48px;
     padding: 0;
-    margin: 0;
-    text-transform: uppercase; }
+    margin: 0; }
     .tabs .tab a {
-      color: rgba(26, 153, 214, 0.7);
+      color: rgba(3, 169, 244, 0.7);
       display: block;
       width: 100%;
       height: 100%;
@@ -3649,17 +3648,19 @@ ul.list-number li > ul > li > ul > li {
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease; }
-      .tabs .tab a:hover, .tabs .tab a.active {
-        background-color: transparent;
-        color: #1a99d6; }
+      .tabs .tab a:hover {
+        background-color: #111111;
+        color: #03a9f4; }
+      .tabs .tab a.active {
+        background-color: #1a1a1a; }
     .tabs .tab.disabled a, .tabs .tab.disabled a:hover {
-      color: rgba(26, 153, 214, 0.7);
+      color: rgba(3, 169, 244, 0.7);
       cursor: default; }
   .tabs .indicator {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #52b9ea;
+    background-color: #47c4fd;
     will-change: left, right; }
 
 @media only screen and (max-width: 992px) {
@@ -3707,7 +3708,6 @@ ul.list-number li > ul > li > ul > li {
   height: 36px;
   line-height: 36px;
   padding: 0 2rem;
-  text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
 
@@ -5348,11 +5348,11 @@ input[type=range]:focus::-ms-fill-upper {
   .table-of-contents a:hover {
     color: #a8a8a8;
     padding-left: 19px;
-    border-left: 1px solid #1a99d6; }
+    border-left: 1px solid #03a9f4; }
   .table-of-contents a.active {
     font-weight: 500;
     padding-left: 18px;
-    border-left: 2px solid #1a99d6; }
+    border-left: 2px solid #03a9f4; }
 
 .side-nav {
   position: fixed;
@@ -5493,7 +5493,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 16px 16px 0; } }
 .side-nav .collapsible-body > ul:not(.collapsible) > li.active,
 .side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active {
-  background-color: #1a99d6; }
+  background-color: #03a9f4; }
   .side-nav .collapsible-body > ul:not(.collapsible) > li.active a,
   .side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active a {
     color: #fff; }
@@ -6025,7 +6025,7 @@ input[type=range]:focus::-ms-fill-upper {
   position: absolute;
   font-size: 1rem;
   border-radius: 50%;
-  background-color: #1a99d6;
+  background-color: #03a9f4;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
@@ -6890,12 +6890,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @media screen and (max-device-width: 800px) {
   header {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg") #fff no-repeat center center fixed; }
+    background-image: url("images/isol-8-main.png") #d1ecf8 no-repeat center center fixed; }
 
   #bgvid {
     display: none; } }
 header {
-  height: 100vh; }
+  height: 80vh; }
   header video {
     position: absolute;
     top: 50%;
@@ -6906,7 +6906,7 @@ header {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg") no-repeat;
+    background: url("images/isol-8-main.png") no-repeat;
     background-size: cover;
     transition: 1s opacity; }
   header .stopfade {

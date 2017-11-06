@@ -2,11 +2,11 @@
 
 .card-panel {
   transition: box-shadow .25s;
-  padding: $card-padding;
+  padding: $card-padding 40px;
   margin: $element-top-margin 0 $element-bottom-margin 0;
-  border-radius: 2px;
   @extend .z-depth-1;
   background-color: $card-bg-color;
+  border-radius: 50px;
 }
 
 .card {
@@ -50,7 +50,7 @@
   }
 
   &.small {
-    height: 300px;
+    height: 150px;
   }
 
   &.medium {
