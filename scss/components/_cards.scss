@@ -6,7 +6,7 @@
   margin: $element-top-margin 0 $element-bottom-margin 0;
   @extend .z-depth-1;
   background-color: $card-bg-color;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .card {
@@ -46,6 +46,7 @@
       bottom: 0;
       left: 0;
       right: 0;
+      background-color: #e6e7e8;
     }
   }
 
@@ -164,15 +165,15 @@
     position: relative;
     background-color: inherit;
     border-top: 1px solid rgba(160,160,160,.2);
-    padding: 16px $card-padding;
+    padding: 12px $card-padding;
 
     a:not(.btn):not(.btn-large):not(.btn-floating) {
-      color: $card-link-color;
       margin-right: $card-padding;
       transition: color .3s ease;
-      text-transform: uppercase;
+      font-size: 90%;
+      line-height: 90%;
 
-      &:hover { color: $card-link-color-light; }
+      &:hover { color: $primary-color-light; }
     }
   }
 

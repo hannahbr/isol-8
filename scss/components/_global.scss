@@ -223,7 +223,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 250px;
 
   .parallax {
     position: absolute;
@@ -731,4 +731,19 @@ td, th{
 
 .parallax-container--small {
   height: 250px;
+}
+
+.cta-link {
+  font-size: 22px;
+
+  i.tiny {
+    color: $secondary-color;
+    font-size: 1em;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+}
+
+.container-padding {
+  padding: 30px 0;
 }

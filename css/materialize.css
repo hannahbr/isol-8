@@ -587,10 +587,10 @@
   color: #2962FF !important; }
 
 .light-blue {
-  background-color: #03a9f4 !important; }
+  background-color: #e6e7e8 !important; }
 
 .light-blue-text {
-  color: #03a9f4 !important; }
+  color: #e6e7e8 !important; }
 
 .light-blue.lighten-5 {
   background-color: #e1f5fe !important; }
@@ -2121,7 +2121,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px; }
+  height: 250px; }
   .parallax-container .parallax {
     position: absolute;
     top: 0;
@@ -2483,6 +2483,17 @@ input[type=range] + .thumb {
 
 .parallax-container--small {
   height: 250px; }
+
+.cta-link {
+  font-size: 22px; }
+  .cta-link i.tiny {
+    color: #333333;
+    font-size: 1em;
+    padding-right: 10px;
+    padding-top: 10px; }
+
+.container-padding {
+  padding: 30px 0; }
 
 span.badge {
   min-width: 3rem;
@@ -3271,9 +3282,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5rem;
   line-height: 110%;
-  margin: 3.5rem 0 2.8rem 0; }
+  margin: 2.5rem 0 2rem 0; }
 
 h2 {
   font-size: 3.56rem;
@@ -3437,7 +3448,7 @@ ul.list-number li > ul > li > ul > li {
   padding: 24px 40px;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
-  border-radius: 50px; }
+  border-radius: 10px; }
 
 .card {
   position: relative;
@@ -3464,7 +3475,8 @@ ul.list-number li > ul > li > ul > li {
       position: absolute;
       bottom: 0;
       left: 0;
-      right: 0; }
+      right: 0;
+      background-color: #e6e7e8; }
   .card.small {
     height: 150px; }
   .card.medium {
@@ -3531,16 +3543,16 @@ ul.list-number li > ul > li > ul > li {
     position: relative;
     background-color: inherit;
     border-top: 1px solid rgba(160, 160, 160, 0.2);
-    padding: 16px 24px; }
+    padding: 12px 24px; }
     .card .card-action:last-child {
       border-radius: 0 0 2px 2px; }
     .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-      color: #ffab40;
       margin-right: 24px;
       transition: color .3s ease;
-      text-transform: uppercase; }
+      font-size: 90%;
+      line-height: 90%; }
       .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-        color: #ffd8a6; }
+        color: #47c4fd; }
   .card .card-reveal {
     padding: 24px;
     position: absolute;
@@ -3644,7 +3656,7 @@ ul.list-number li > ul > li > ul > li {
       width: 100%;
       height: 100%;
       padding: 0 24px;
-      font-size: 14px;
+      font-size: 18px;
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease; }
@@ -6895,7 +6907,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   #bgvid {
     display: none; } }
 header {
-  height: 80vh; }
+  height: 65vh; }
   header video {
     position: absolute;
     top: 50%;
