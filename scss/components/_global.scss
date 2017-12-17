@@ -1,7 +1,10 @@
 //Default styles
 
-html {
+html, body {
  box-sizing: border-box;
+ overflow-x: hidden!important;
+ max-width:100%!important;
+ -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 *, *:before, *:after {
  box-sizing: inherit;
@@ -345,6 +348,11 @@ ul.staggered-list li {
     color: $footer-copyright-font-color;
     background-color: $footer-copyright-bg-color;
     @extend .light;
+  }
+
+  .footer-copyright-small {
+    font-size: 70%;
+    color: #686868;
   }
 }
 

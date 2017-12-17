@@ -1979,8 +1979,11 @@ td,
 th {
   padding: 0; }
 
-html {
-  box-sizing: border-box; }
+html, body {
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -2214,6 +2217,9 @@ ul.staggered-list li {
     padding: 10px 0px;
     color: rgba(255, 255, 255, 0.8);
     background-color: #262626; }
+  .page-footer .footer-copyright-small {
+    font-size: 70%;
+    color: #686868; }
 
 table, th, td {
   border: none; }
@@ -3623,11 +3629,14 @@ ul.list-number li > ul > li > ul > li {
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  height: 48px;
+  height: 68px;
   width: 100%;
   background-color: #222222;
   white-space: nowrap;
-  border-radius: 10px; }
+  border-radius: 10px;
+  -webkit-box-shadow: -4px 0px 33px 2px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: -4px 0px 33px 2px rgba(0, 0, 0, 0.34);
+  box-shadow: -4px 0px 33px 2px rgba(0, 0, 0, 0.34); }
   .tabs.tabs-transparent {
     background-color: transparent; }
     .tabs.tabs-transparent .tab a,
@@ -3646,8 +3655,8 @@ ul.list-number li > ul > li > ul > li {
   .tabs .tab {
     display: inline-block;
     text-align: center;
-    line-height: 48px;
-    height: 48px;
+    line-height: 68px;
+    height: 68px;
     padding: 0;
     margin: 0; }
     .tabs .tab a {
@@ -3656,7 +3665,7 @@ ul.list-number li > ul > li > ul > li {
       width: 100%;
       height: 100%;
       padding: 0 24px;
-      font-size: 18px;
+      font-size: 22px;
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease; }
